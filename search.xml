@@ -14,6 +14,24 @@
       </tags>
   </entry>
   <entry>
+    <title>SWOT个人分析</title>
+    <url>/2021/01/26/SWOT-%E4%B8%AA%E4%BA%BA%E6%83%85%E5%86%B5%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<h2 id="SWOT个人分析"><a href="#SWOT个人分析" class="headerlink" title="SWOT个人分析"></a>SWOT个人分析</h2><h3 id="S（Strength）"><a href="#S（Strength）" class="headerlink" title="S（Strength）:"></a>S（Strength）:</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.用心向上，积极乐观看待生活中应对的困难和挫折</span><br><span class="line">2.除了学习本专业的知识，我还去学习其他方面计算机相关知识</span><br><span class="line">3.和同学友好相处，对人真诚友善，且乐于助人</span><br><span class="line">4.富有极强的职责心和耐心，对事情有责任心</span><br><span class="line">5.会听别人建议，吸取别人的经验和学习别人不同的思维角度。</span><br><span class="line">6.对一切问题有寻根究底的兴趣，一定要将事情想清楚，并喜欢思考问题，有一定的分析能力。</span><br></pre></td></tr></table></figure>
+<h3 id="W（Weakness）"><a href="#W（Weakness）" class="headerlink" title="W（Weakness）:"></a>W（Weakness）:</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.做事经验不足，容易忽略一些重要的细节，考虑问题不够全面。</span><br><span class="line">2.不能很好的规划时间</span><br><span class="line">3.对于新知识、新事物认知和学习的速度较慢</span><br><span class="line">4.做事有时拖拉，不够雷厉风行</span><br><span class="line">5.工作、学习有些保守，冒险精神不够，没有结合长远目标，并且创新能力有待提高</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="O（Opportunity）"><a href="#O（Opportunity）" class="headerlink" title="O（Opportunity）:"></a>O（Opportunity）:</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.信息时代，有许多可以利用的资源和各种可以查询类型的信息。</span><br><span class="line">2.国家和市场对计算机领域的人才需求量大</span><br><span class="line">3.参加学校的科研室，不断学习，提高自己的计算机方面综合能力</span><br><span class="line">4.可以借鉴微信公众号推送的各类计算机方面的文章</span><br><span class="line">5.身边很多优秀的老师和同学，有很多向他们学习的机会，并且有构建良好的人际关系的条件</span><br></pre></td></tr></table></figure>
+
+<h3 id="T（Threat）"><a href="#T（Threat）" class="headerlink" title="T（Threat）:"></a>T（Threat）:</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.就业形势严峻，各用人单位对人才素质提出了更高的要求，更看重个人的综合能力</span><br><span class="line">2.优秀人才很多，市场竞争激烈，就业机会不均等，需要自己发现机会并把握机会。</span><br><span class="line">3.计算机行业更新换代速度极快，新鲜事物出现速度也很快，需要不断学习，丰富自己的知识内涵</span><br><span class="line">4.用人单位对毕业生要求较高，更需要有经验的人才</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>SWOT</category>
+      </categories>
+      <tags>
+        <tag>SWOT</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>EDA探索性分析+聚类算法构建用户画像</title>
     <url>/2021/04/04/EDA%E6%8E%A2%E7%B4%A2%E6%80%A7%E5%88%86%E6%9E%90+%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E6%9E%84%E5%BB%BA%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/</url>
     <content><![CDATA[<h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">首先对数据进行EDA探索性分析，分析不同信用分类的客户主要差异体现在哪些方面，并对这些差异进行检验；应用重要特征或所有特征构建统计模型或机器学习算法，并应用于实际业务的科学决策。</span><br></pre></td></tr></table></figure>
@@ -51,24 +69,6 @@
       </categories>
       <tags>
         <tag>任务记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SWOT个人分析</title>
-    <url>/2021/01/26/SWOT-%E4%B8%AA%E4%BA%BA%E6%83%85%E5%86%B5%E5%88%86%E6%9E%90/</url>
-    <content><![CDATA[<h2 id="SWOT个人分析"><a href="#SWOT个人分析" class="headerlink" title="SWOT个人分析"></a>SWOT个人分析</h2><h3 id="S（Strength）"><a href="#S（Strength）" class="headerlink" title="S（Strength）:"></a>S（Strength）:</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.用心向上，积极乐观看待生活中应对的困难和挫折</span><br><span class="line">2.除了学习本专业的知识，我还去学习其他方面计算机相关知识</span><br><span class="line">3.和同学友好相处，对人真诚友善，且乐于助人</span><br><span class="line">4.富有极强的职责心和耐心，对事情有责任心</span><br><span class="line">5.会听别人建议，吸取别人的经验和学习别人不同的思维角度。</span><br><span class="line">6.对一切问题有寻根究底的兴趣，一定要将事情想清楚，并喜欢思考问题，有一定的分析能力。</span><br></pre></td></tr></table></figure>
-<h3 id="W（Weakness）"><a href="#W（Weakness）" class="headerlink" title="W（Weakness）:"></a>W（Weakness）:</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.做事经验不足，容易忽略一些重要的细节，考虑问题不够全面。</span><br><span class="line">2.不能很好的规划时间</span><br><span class="line">3.对于新知识、新事物认知和学习的速度较慢</span><br><span class="line">4.做事有时拖拉，不够雷厉风行</span><br><span class="line">5.工作、学习有些保守，冒险精神不够，没有结合长远目标，并且创新能力有待提高</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="O（Opportunity）"><a href="#O（Opportunity）" class="headerlink" title="O（Opportunity）:"></a>O（Opportunity）:</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.信息时代，有许多可以利用的资源和各种可以查询类型的信息。</span><br><span class="line">2.国家和市场对计算机领域的人才需求量大</span><br><span class="line">3.参加学校的科研室，不断学习，提高自己的计算机方面综合能力</span><br><span class="line">4.可以借鉴微信公众号推送的各类计算机方面的文章</span><br><span class="line">5.身边很多优秀的老师和同学，有很多向他们学习的机会，并且有构建良好的人际关系的条件</span><br></pre></td></tr></table></figure>
-
-<h3 id="T（Threat）"><a href="#T（Threat）" class="headerlink" title="T（Threat）:"></a>T（Threat）:</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.就业形势严峻，各用人单位对人才素质提出了更高的要求，更看重个人的综合能力</span><br><span class="line">2.优秀人才很多，市场竞争激烈，就业机会不均等，需要自己发现机会并把握机会。</span><br><span class="line">3.计算机行业更新换代速度极快，新鲜事物出现速度也很快，需要不断学习，丰富自己的知识内涵</span><br><span class="line">4.用人单位对毕业生要求较高，更需要有经验的人才</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>SWOT</category>
-      </categories>
-      <tags>
-        <tag>SWOT</tag>
       </tags>
   </entry>
   <entry>
