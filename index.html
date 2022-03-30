@@ -1,0 +1,303 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kirov's Blog - Kirov Reporting</title><meta name="author" content="Kirov"><meta name="copyright" content="Kirov"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="日拱一卒，功不唐捐">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kirov&#39;s Blog">
+<meta property="og:url" content="http://ambitiousf.github.io/index.html">
+<meta property="og:site_name" content="Kirov&#39;s Blog">
+<meta property="og:description" content="日拱一卒，功不唐捐">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2022/03/30/pi6boemd9TjQfuA.jpg">
+<meta property="article:author" content="Kirov">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2022/03/30/pi6boemd9TjQfuA.jpg"><link rel="shortcut icon" href="https://i.loli.net/2021/04/04/GwL2bIURBA1zutg.png"><link rel="canonical" href="http://ambitiousf.github.io/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}
+
+// https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+const getScript = url => new Promise((resolve, reject) => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  script.onerror = reject
+  script.onload = script.onreadystatechange = function() {
+    const loadState = this.readyState
+    if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+    script.onload = script.onreadystatechange = null
+    resolve()
+  }
+  document.head.appendChild(script)
+})</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-03-30 17:30:45'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><style type="text/css">.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style><link rel="stylesheet" href="APlayer.min.css"><div id="aplayer"></div><script src="https://cdn.jsdelivr.net/gh/radium-bit/res@master/live2d/autoload.js" async></script><script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js" async></script><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Kirov's Blog" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://s2.loli.net/2022/03/30/pi6boemd9TjQfuA.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(https://i.loli.net/2021/05/26/AdCM4BavUGzmD6h.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Kirov's Blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Kirov's Blog</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/ambitiousF/ambitiousF.github.io" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:842092898@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2022/03/30/zz&amp;ll/" title="WE">     <img class="post_bg" src="https://s2.loli.net/2022/03/30/2pe1rzCUKDYsTqH.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="WE"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/03/30/zz&amp;ll/" title="WE">WE</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-30T09:30:10.000Z" title="发表于 2022-03-30 17:30:10">2022-03-30</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/WE/">WE</a></span></div><div class="content">
+  086e40662a6e3f52ac068bff03bd2acbea0889ed423c5da22c613454fde274c4018a296c0ffff52e03505ba387e07dac5d477131bbbdeb67d0be1c82b4168010a1fa9a1c24aa5a5e867a5e21a2949e3a377420219e6d87e9012307ab3e1ce995415eebde82bbcda8d1d37ac8313f6e32f9d720e7158d5956c102780cffc9fa51a4692802cbc1f6000cc0e02bc3f1213bda8471500e5665285185d536c29777c51578240fc447ba8d755c7a18ce83596a5bbaa13fb3b98af74bc8fb480682b8f916cbd86882e4df74ef16e80fbb1f5027c42017b0ecf4985d69f6243526055329a644af19b1b0838bcab308ebf382f2e39b21335d3477fd2b3 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/05/27/%E8%82%BA%E6%A0%93%E5%A1%9E%E9%A1%B9%E7%9B%AE%E4%BB%A3%E7%A0%81%E6%9D%82%E8%AE%B0/" title="肺栓塞项目代码杂记(一)">     <img class="post_bg" src="https://i.loli.net/2021/05/27/LU9MCt5SxKJspET.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="肺栓塞项目代码杂记(一)"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/05/27/%E8%82%BA%E6%A0%93%E5%A1%9E%E9%A1%B9%E7%9B%AE%E4%BB%A3%E7%A0%81%E6%9D%82%E8%AE%B0/" title="肺栓塞项目代码杂记(一)">肺栓塞项目代码杂记(一)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-05-27T02:45:03.000Z" title="发表于 2021-05-27 10:45:03">2021-05-27</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E4%BB%BB%E5%8A%A1%E8%AE%B0%E5%BD%95/">任务记录</a></span></div><div class="content">1
+Pytorch中load和load_state_dict区别torch.load加载的是训练好的模型例如：torch.load(&#x27;ad.pth&#x27;)load_state_dict是net的一个方法，是将torch.load加载出来的数据加载到net中项目：cnn5.load_state_dict(torch.load(filepath))
+2
+cnn5 = torch.nn.DataParallel(cnn5)单机多GPU使用dataparallel进行加速运算
+3
+在训练和测试函数中model.eval()，和model.train()的区别拿到数据后进行训练，在训练过程中，使用model.train(）：告诉我们的网络，这个阶段是用来训练的，可以更新参数。训练完成后进行预测，在预测过程中，使用model.eval() ： 告诉我们的网络，这个阶段是用来测试的，于是模型的参数在该阶段不进行更新。
+4
+enumerate就是枚举的意思，把元素一个个列举出来，第一个是什么，第二个是什么，所以他返回的是元素以及对应的索引。line = [1,2,3,4,5,6,7,8 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/05/25/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="手把手教你搭建个人博客">     <img class="post_bg" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="手把手教你搭建个人博客"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/05/25/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="手把手教你搭建个人博客">手把手教你搭建个人博客</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-05-25T11:10:18.000Z" title="发表于 2021-05-25 19:10:18">2021-05-25</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a></span></div><div class="content">hexo搭建自己的静态博客一、软件准备1.Git
+1.官方下载网址:&lt;https://git-scm.com/&gt;2.Git安装:&lt;https://www.cnblogs.com/ximiaomiao/p/7140456.html&gt;3.Git配置:&lt;https://www.xuanfengge.com/using-ssh-key-link-github-photo-tour.html&gt;
+2.Note.js
+1.官方下载网址:&lt;https://nodejs.org/en/&gt;
+3.Github
+1.官网:&lt;https://github.com/&gt;    在这里注册自己的github账号
+二、安装过程
+1.note安装    按照安装过程依次点击即可，安装过程很简单。2.安装git    按照网上的安装方式进行安装就可以了（参考上述网址）3. 检测node安装是否成功    node -v（返回版本号）    npm -v（返回版本号）4.安装淘宝镜像源    npm install -g cnpm –registry=https:/ ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/04/04/EDA%E6%8E%A2%E7%B4%A2%E6%80%A7%E5%88%86%E6%9E%90+%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E6%9E%84%E5%BB%BA%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/" title="EDA探索性分析+聚类算法构建用户画像">     <img class="post_bg" src="https://i.loli.net/2021/05/26/Gmx9Onr63Tsl1zU.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="EDA探索性分析+聚类算法构建用户画像"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/04/04/EDA%E6%8E%A2%E7%B4%A2%E6%80%A7%E5%88%86%E6%9E%90+%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E6%9E%84%E5%BB%BA%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/" title="EDA探索性分析+聚类算法构建用户画像">EDA探索性分析+聚类算法构建用户画像</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-04-04T13:29:32.000Z" title="发表于 2021-04-04 21:29:32">2021-04-04</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E4%BB%BB%E5%8A%A1%E8%AE%B0%E5%BD%95/">任务记录</a></span></div><div class="content">目的首先对数据进行EDA探索性分析，分析不同信用分类的客户主要差异体现在哪些方面，并对这些差异进行检验；应用重要特征或所有特征构建统计模型或机器学习算法，并应用于实际业务的科学决策。
+任务按照信用分类把训练数据集(training.csv)中的客户分成两个群体，一类群体的信用分类为：差，一类群体的信用分类为：好。请对信用分类为差的客户群体进行客户细分，并给出不同客户细分群体的用户画像。
+import sysimport numpy as npimport pandas as pdimport matplotlib.pyplot as plt%matplotlib inlineimport seaborn as snsfrom pandas_profiling import ProfileReportfrom sklearn import metricsfrom sklearn.cluster import KMeanssys.path.append(&#x27;D:/&#x27;)data = pd.read_csv(&#x27;D:/training.csv&#x27;,engine ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/02/01/%E4%BA%BA%E9%97%B4%E9%A3%9F%E8%AF%9D%EF%BC%88%E4%B8%80%EF%BC%89/" title="人间食话（一）">     <img class="post_bg" src="https://i.loli.net/2021/04/04/Ji94yeGEqc71L2X.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="人间食话（一）"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/02/01/%E4%BA%BA%E9%97%B4%E9%A3%9F%E8%AF%9D%EF%BC%88%E4%B8%80%EF%BC%89/" title="人间食话（一）">人间食话（一）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-02-01T02:34:10.000Z" title="发表于 2021-02-01 10:34:10">2021-02-01</time></span><span class="article-meta"><span class="article-meta__separator">|</span><i class="fas fa-inbox article-meta__icon"></i><a class="article-meta__categories" href="/categories/%E3%80%8A%E4%BA%BA%E9%97%B4%E9%A3%9F%E8%AF%9D%E3%80%8B%E2%80%94%E2%80%94%E6%A2%81%E5%AE%9E%E7%A7%8B/">《人间食话》——梁实秋</a></span></div><div class="content">人间食话——梁实秋人间食话（一）1.我第一次吃西施舌是在青岛顺兴楼席上，一大碗清汤，浮着一层尖尖的白白的东西，初不知为何物，主人曰是乃西施舌，含在口中有滑嫩柔软的感觉，尝试之下果然名不虚传，但觉未免唐突西施。高汤汆西施舌，盖仅取其舌状之水管部分。若郁达夫所谓“长圆的蚌肉”，显系整个的西施舌之软体全入釜中。————选自《西施舌》
+2.一九二六年冬，某日吴梅先生宴东南大学同仁于南京北万全，予亦叨陪。席间上清蒸火腿一色，盛以高大瓷盘，取火腿最精部分，切成半寸见方高寸许之小块，二三十块矗立于盘中，纯由醇酿花雕蒸制熟透，味之鲜美无与伦比。先生微酡，击案高歌，盛会难忘，于今已有半个世纪有余。——《火腿》
+3.有人告诉我，整只火腿煮熟是有诀窍的。法以整只火腿浸泡水中三数日，每日换水一二次，然后刮磨表面油腻，然后用凿子挖出其中的骨头（这层手续不易），然后用麻绳紧紧捆绑，下锅煮沸二十分钟，然后以微火煮两小时，然后再大火煮沸，取出冷却即可使用——《火腿》
+4.醋溜鱼当然是汁里加醋，但不宜加多，可以加少许酱油，亦不能加多。汁不要多，也不要浓，更不要油，要清清淡淡，微微透明。——《醋溜鱼》
+5.北平烤羊肉以前 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="https://s2.loli.net/2022/03/30/pi6boemd9TjQfuA.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">Kirov</div><div class="author-info__description">日拱一卒，功不唐捐</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ambitiousF/ambitiousF.github.io"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/ambitiousF/ambitiousF.github.io" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:842092898@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">学习新思想·争做新青年</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/03/30/zz&amp;ll/" title="WE"><img src="https://s2.loli.net/2022/03/30/2pe1rzCUKDYsTqH.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="WE"/></a><div class="content"><a class="title" href="/2022/03/30/zz&amp;ll/" title="WE">WE</a><time datetime="2022-03-30T09:30:10.000Z" title="发表于 2022-03-30 17:30:10">2022-03-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/05/27/%E8%82%BA%E6%A0%93%E5%A1%9E%E9%A1%B9%E7%9B%AE%E4%BB%A3%E7%A0%81%E6%9D%82%E8%AE%B0/" title="肺栓塞项目代码杂记(一)"><img src="https://i.loli.net/2021/05/27/LU9MCt5SxKJspET.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="肺栓塞项目代码杂记(一)"/></a><div class="content"><a class="title" href="/2021/05/27/%E8%82%BA%E6%A0%93%E5%A1%9E%E9%A1%B9%E7%9B%AE%E4%BB%A3%E7%A0%81%E6%9D%82%E8%AE%B0/" title="肺栓塞项目代码杂记(一)">肺栓塞项目代码杂记(一)</a><time datetime="2021-05-27T02:45:03.000Z" title="发表于 2021-05-27 10:45:03">2021-05-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/05/25/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="手把手教你搭建个人博客"><img src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="手把手教你搭建个人博客"/></a><div class="content"><a class="title" href="/2021/05/25/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="手把手教你搭建个人博客">手把手教你搭建个人博客</a><time datetime="2021-05-25T11:10:18.000Z" title="发表于 2021-05-25 19:10:18">2021-05-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/04/04/EDA%E6%8E%A2%E7%B4%A2%E6%80%A7%E5%88%86%E6%9E%90+%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E6%9E%84%E5%BB%BA%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/" title="EDA探索性分析+聚类算法构建用户画像"><img src="https://i.loli.net/2021/05/26/Gmx9Onr63Tsl1zU.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="EDA探索性分析+聚类算法构建用户画像"/></a><div class="content"><a class="title" href="/2021/04/04/EDA%E6%8E%A2%E7%B4%A2%E6%80%A7%E5%88%86%E6%9E%90+%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95%E6%9E%84%E5%BB%BA%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/" title="EDA探索性分析+聚类算法构建用户画像">EDA探索性分析+聚类算法构建用户画像</a><time datetime="2021-04-04T13:29:32.000Z" title="发表于 2021-04-04 21:29:32">2021-04-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/01/%E4%BA%BA%E9%97%B4%E9%A3%9F%E8%AF%9D%EF%BC%88%E4%B8%80%EF%BC%89/" title="人间食话（一）"><img src="https://i.loli.net/2021/04/04/Ji94yeGEqc71L2X.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="人间食话（一）"/></a><div class="content"><a class="title" href="/2021/02/01/%E4%BA%BA%E9%97%B4%E9%A3%9F%E8%AF%9D%EF%BC%88%E4%B8%80%EF%BC%89/" title="人间食话（一）">人间食话（一）</a><time datetime="2021-02-01T02:34:10.000Z" title="发表于 2021-02-01 10:34:10">2021-02-01</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span></div><ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/WE/"><span class="card-category-list-name">WE</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E3%80%8A%E4%BA%BA%E9%97%B4%E9%A3%9F%E8%AF%9D%E3%80%8B%E2%80%94%E2%80%94%E6%A2%81%E5%AE%9E%E7%A7%8B/"><span class="card-category-list-name">《人间食话》——梁实秋</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%BB%BB%E5%8A%A1%E8%AE%B0%E5%BD%95/"><span class="card-category-list-name">任务记录</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"><span class="card-category-list-name">博客搭建</span><span class="card-category-list-count">1</span></a></li>
+            
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E4%BB%BB%E5%8A%A1%E8%AE%B0%E5%BD%95/" style="font-size: 1.5em; color: rgb(156, 104, 66)">任务记录</a><a href="/tags/%E3%80%8A%E4%BA%BA%E9%97%B4%E9%A3%9F%E8%AF%9D%E3%80%8B%E2%80%94%E2%80%94%E6%A2%81%E5%AE%9E%E7%A7%8B/" style="font-size: 1.1em; color: rgb(200, 16, 150)">《人间食话》——梁实秋</a><a href="/tags/WE/" style="font-size: 1.1em; color: rgb(24, 46, 151)">WE</a><a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" style="font-size: 1.1em; color: rgb(8, 92, 194)">博客搭建</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/05/"><span class="card-archive-list-date">五月 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/04/"><span class="card-archive-list-date">四月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/02/"><span class="card-archive-list-date">二月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">5</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">5.1k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-03-30T09:30:45.683Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Kirov</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> {preloader.endLoading()})</script><div class="js-pjax"><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        var from = '出自 ' + data.from
+        var sub = "".length == 0 ? new Array() : "".split(',')
+        var both = sub.unshift(data.hitokoto, from)
+        var typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = data.hitokoto
+      }
+    })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div class="aplayer no-destroy" data-id="443242" data-server="netease" data-type="song" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config_change',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  if (typeof gtag === 'function') {
+    gtag('config', '', {'page_path': window.location.pathname});
+  }
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+
+document.addEventListener('pjax:send', function () {
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})</script></div></body></html>
